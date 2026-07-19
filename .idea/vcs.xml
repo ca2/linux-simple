@@ -8,6 +8,8 @@
     <mapping directory="$PROJECT_DIR$/port" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base/id3lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/port/base/stb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/port/base/tinyobjloader" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base/unac" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/common" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/common/debugbreak" vcs="Git" />

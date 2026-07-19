@@ -4,6 +4,7 @@ app/launch/integration
 app/launch2/integration
 app/message_box
 app/shader
+app-simple/about_the_operating_system
 app-simple/application
 app-simple/box
 app-simple/change_grub_default_entry
