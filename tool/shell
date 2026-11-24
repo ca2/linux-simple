@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+ca2_run_workspace_shell() {
+    unset -f ca2_run_workspace_shell
+    local checkout shell_script
+    checkout=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P) || return 1
+    shell_script="$checkout/operating_system/operating_system-linux/tool/shell"
+    if [[ ! -f "$shell_script" ]]; then
+        printf '%s\n' 'The Linux tool submodule is missing. Run git submodule update --init --recursive.' >&2
+        return 1
+    fi
+
+    if [[ ${BASH_SOURCE[0]} != "$0" ]]; then
+        . "$shell_script"
+    else
+        cd -- "$checkout" || return 1
+        exec bash "$shell_script"
+    fi
+}
+
+ca2_run_workspace_shell

@@ -24,3 +24,5 @@ solution.vc.db*
 *.expand_fileset
 *.expand_fileset.spa
 Thumbs.db
+
+/shell.desktop
