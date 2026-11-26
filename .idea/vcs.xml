@@ -4,20 +4,12 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/operating_system" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/operating_system/operating_system-linux" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/operating_system/operating_system-linux/tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/operating_system/operating_system-linux/tool/posix" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/operating_system/operating_system-posix" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/base" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/base/id3lib" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/base/stb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/base/tinyobjloader" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/base/unac" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/common" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/common/debugbreak" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/common/jwt-cpp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/common/nanosvg" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/common/picojson" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/common/rapidjson" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/common/rapidjson/thirdparty/gtest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-simple" vcs="Git" />

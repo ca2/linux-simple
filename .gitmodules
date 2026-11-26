@@ -5,3 +5,7 @@
 	path = operating_system
 	url = ../linux-operating_system
 	branch = main
+[submodule "port"]
+	path = port
+	url = ../linux-simple-port
+	branch = main
