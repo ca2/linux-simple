@@ -1,10 +1,6 @@
 [submodule "source"]
 	path = source
 	url = ../simple-source
-[submodule "port"]
-	path = port
-	url = ../linux-port
-	branch = main
 [submodule "operating_system"]
 	path = operating_system
 	url = ../linux-operating_system
