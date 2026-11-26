@@ -7,5 +7,5 @@
 	branch = main
 [submodule "port"]
 	path = port
-	url = ../linux-simple-port
+	url = ../../cpp-port/linux-simple-port
 	branch = main
